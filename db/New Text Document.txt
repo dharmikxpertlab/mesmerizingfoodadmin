@@ -1,0 +1,1 @@
+ALTER TABLE `user` CHANGE `deleat` `delete` INT NOT NULL DEFAULT '0' COMMENT '1=delete 0=not';

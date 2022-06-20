@@ -1,0 +1,31 @@
+Options -Indexes
+
+RewriteEngine On
+
+
+
+RewriteRule ^adduser-([a-zA-Z0-9-=_.]+)/$ adduser/index.php?edit=$1
+RewriteRule ^addcarousal-([a-zA-Z0-9-=_.]+)/$ addcarousal/index.php?edit=$1
+RewriteRule ^addbanner-([a-zA-Z0-9-=_.]+)/$ addbanner/index.php?edit=$1
+
+RewriteRule ^adddiet-([a-zA-Z0-9-=_.]+)/$ adddiet/index.php?edit=$1
+RewriteRule ^addcuisines-([a-zA-Z0-9-=_.]+)/$ addcuisines/index.php?edit=$1
+RewriteRule ^addtutors-([a-zA-Z0-9-=_.]+)/$ addtutors/index.php?edit=$1
+RewriteRule ^adddishes-([a-zA-Z0-9-=_.]+)/$ adddishes/index.php?edit=$1
+RewriteRule ^addcourses-([a-zA-Z0-9-=_.]+)/$ addcourses/index.php?edit=$1
+RewriteRule ^viewtutor-([a-zA-Z0-9-=_.]+)/$ viewtutors/index.php?id=$1
+RewriteRule ^addcourseprice-([a-zA-Z0-9-=_.]+)/$ addcourseprice/index.php?edit=$1
+RewriteRule ^addcheftag-([a-zA-Z0-9-=_.]+)/$ addcheftag/index.php?id=$1
+RewriteRule ^addlivewebinars-([a-zA-Z0-9-=_.]+)/$ addlivewebinars/index.php?edit=$1
+
+
+
+RewriteRule ^addoffer-([a-zA-Z0-9-=_.]+)/$ addoffer/index.php?id=$1
+RewriteRule ^addlanguage-([a-zA-Z0-9-=_.]+)/$ addlanguage/index.php?id=$1
+RewriteRule ^addfaq-([a-zA-Z0-9-=_.]+)/$ addfaq/index.php?id=$1
+RewriteRule ^addadmin-([a-zA-Z0-9-=_.]+)/$ addadmin/index.php?edit=$1
+RewriteRule ^editadminpassword-([a-zA-Z0-9-=_.]+)/$ editadminpassword/index.php?edit=$1
+RewriteRule ^rights-([a-zA-Z0-9-=_.]+)/$ rights/index.php?roleId=$1
+RewriteRule ^addrole-([a-zA-Z0-9-=_.]+)/$ addrole/index.php?edit=$1
+RewriteRule ^appointment-([a-zA-Z0-9-=_.]+)/$ appointment/index.php?edit=$1
+
